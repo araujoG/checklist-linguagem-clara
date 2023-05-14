@@ -35,12 +35,12 @@
           <div class="d-flex w-100 h-26px">
             <h3 class="heading w-auto p-0">Checklist</h3>
             <div class="checkbox-counter w-auto p-0">
-              <span id="">0</span>
-              out of 5
+              <span id="marked-checkboxes">0</span>
+              out of <span id="total-checkboxes"></span>
             </div>
           </div>
           <section>
-            <button type="button" class="btn uncheck-button">
+            <button type="button" class="btn uncheck-button" onclick="uncheckAll()">
               Uncheck all
             </button>
           </section>
@@ -51,7 +51,7 @@
       <div class="col-7">
         <ul class="list-group checklist">
           <li class="list-group-item d-flex align-items-center checklist-item">
-            <input class="form-check-input me-3 mt-0 checkbox" type="checkbox" value="" id="firstCheckbox" />
+            <input class="form-check-input me-3 mt-0 checkbox" type="checkbox" name="checkbox-checklist"/>
             <div class="col checklist-label">
               <div class="main-text">Ilustração</div>
               <div class="sub-text">
@@ -61,7 +61,7 @@
           </li>
 
           <li class="list-group-item d-flex align-items-center checklist-item">
-            <input class="form-check-input me-3 mt-0 checkbox" type="checkbox" value="" id="firstCheckbox" />
+            <input class="form-check-input me-3 mt-0 checkbox" type="checkbox" name="checkbox-checklist"/>
             <div class="col checklist-label">
               <div class="main-text">Título</div>
               <div class="sub-text mb-2">
@@ -78,7 +78,7 @@
           </li>
 
           <li class="list-group-item d-flex align-items-center checklist-item">
-            <input class="form-check-input me-3 mt-0 checkbox" type="checkbox" value="" id="firstCheckbox" />
+            <input class="form-check-input me-3 mt-0 checkbox" type="checkbox" name="checkbox-checklist"/>
             <div class="col checklist-label">
               <div class="main-text">Diálogo</div>
               <div class="sub-text mb-2">
@@ -97,5 +97,6 @@
     </div>
   </section>
 </main>
+<script src="../elements.js" ></script>
 
 </html>

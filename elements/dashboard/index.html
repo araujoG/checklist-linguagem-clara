@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Button Element - Checklist Linguagem Clara</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../../main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../elements.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</head>
+<main>
+  <a class="row gx-0 px-5 align-items-center h-85px" href="../../">
+    Navigation bar - (TEMPORÁRIO)
+  </a>
+  <section class="py-banner px-5 bg-white">
+    <div class="row">
+      <div class="col-6">
+        <h5 class="titulo-elementPage emoji">📈</h5>
+        <h1 class="titulo-elementPage">Dashboard</h1>
+        <h1 class="titulo-elementPage category">Element</h1>
+        <p class="paragraph-main">
+          O usuário deve compreender com clareza um conjunto de dados apresentados de forma gráfica.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="px-5 bg-section p-row-container">
+    <div class="row mb-3">
+      <div class="col-7">
+        <div class="features-title pt-3 d-flex justify-content-space-between align-items-center">
+          <div class="d-flex w-100 h-26px">
+            <h3 class="heading w-auto p-0">Checklist</h3>
+            <div class="checkbox-counter w-auto p-0">
+              <span id="marked-checkboxes">0</span>
+              out of <span id="total-checkboxes"></span>
+            </div>
+          </div>
+          <section>
+            <button type="button" class="btn uncheck-button" onclick="uncheckAll()">
+              Uncheck all
+            </button>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-7">
+        <ul class="list-group checklist">
+          <li class="list-group-item d-flex align-items-center checklist-item">
+            <input class="form-check-input me-3 mt-0 checkbox" type="checkbox" name="checkbox-checklist" />
+            <div class="col checklist-label">
+              <div class="main-text">Labels</div>
+              <div class="sub-text mb-2">
+                Use labels claras e úteis para a pessoa usuária em cada um dos dados apresentados
+              </div>
+              <div class="star-text">
+                Use labels que informem de forma clara e precisa o que o dado representa
+              </div>
+              <div class="star-text">
+                Evite o uso de termos legais, estrangeiros e técnicos
+              </div>
+              <div class="star-text">
+                Evite usar palavras difíceis para o seu público
+              </div>
+              <div class="star-text">
+                Evite labels muito curtas, elas podem causar ambiguidade
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item d-flex align-items-center checklist-item">
+            <input class="form-check-input me-3 mt-0 checkbox" type="checkbox" name="checkbox-checklist" />
+            <div class="col checklist-label">
+              <div class="main-text">Desejos do público</div>
+              <div class="sub-text mb-2">
+                Entenda as demandas do seu público alvo
+              </div>
+              <div class="star-text">
+                Inclua informações úteis para a pessoa usuária
+              </div>
+              <div class="star-text">
+                Disponibilize as informações que são de interesse do seu público
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item d-flex align-items-center opcional-item-title">
+            Opcional
+          </li>
+
+          <li class="list-group-item d-flex align-items-center checklist-item">
+            <input class="form-check-input me-3 mt-0 checkbox" type="checkbox" name="checkbox-checklist" />
+            <div class="col checklist-label">
+              <div class="main-text">Ilustrações</div>
+              <div class="sub-text mb-2">
+                Considere incluir ilustrações para reforçar o entendimento do conteúdo textual
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-5 pl-30px">
+        <div class="card-examples">
+          <h5 class="heading mb-2">Inspirações</h5>
+          <div class="imageBox border">Imagem 1</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="../elements.js"></script>
+
+</html>

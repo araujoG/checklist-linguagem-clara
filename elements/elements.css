@@ -156,7 +156,9 @@ h5.heading {
     line-height: 22px;
 }
 
-.imageBox {
-    height: 100px;
-    width: 100px;
+.img-thumb {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: left;
 }

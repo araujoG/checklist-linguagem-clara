@@ -162,3 +162,8 @@ h5.heading {
     object-fit: cover;
     object-position: left;
 }
+
+.expanded-modal {
+    max-width: 100% !important;
+    height: auto
+}

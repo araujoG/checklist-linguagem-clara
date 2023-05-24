@@ -1,0 +1,30 @@
+* {
+    font-family: Basier Circle, sans-serif !important;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 215px 215px 215px;
+    grid-template-rows: 75px 75px;
+    grid-gap: 1rem;
+    width: fit-content;
+}
+
+.item-menu {
+    padding: 20px 15px;
+    background-color: var(--bs-orange);
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+}
+
+.titulo-item-menu {
+    text-transform: capitalize;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.titulo-menu {
+    color: var(--bs-orange);
+}

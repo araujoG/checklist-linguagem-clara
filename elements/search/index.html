@@ -92,7 +92,8 @@
                 Use o placeholder para exemplificar possíveis buscas
               </div>
               <div class="star-text">
-                Evite descrever o campo por meio de um placeholder já que eles desaparecem assim que o usuário começa a digitar
+                Evite descrever o campo por meio de um placeholder já que eles desaparecem assim que o usuário começa a
+                digitar
               </div>
             </div>
           </li>
@@ -101,7 +102,22 @@
       <div class="col-5 pl-30px">
         <div class="card-examples">
           <h5 class="heading mb-2">Inspirações</h5>
-          <img src="./assets/img/example.png" class="img-thumb border rounded" onclick="">
+          <img src="./assets/img/example.png" class="img-thumb border rounded" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+        </div>
+      </div>
+      <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/img/example.png" class="img-fluid rounded" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+            </div>
+          </div>
         </div>
       </div>
     </div>

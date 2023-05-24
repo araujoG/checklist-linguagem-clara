@@ -1,0 +1,18 @@
+.item-navbar {
+    border-color: #5c5c5c;
+    border-width: 1px;
+    border-right-style: solid;
+    padding: 5px 10px;
+}
+
+.item-navbar::after {
+    content: '>';
+}
+
+* {
+    font-family: Basier Circle, sans-serif !important;
+}
+
+.d-flex.flex-row > *{
+    margin-right: 10px;
+}

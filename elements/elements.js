@@ -1,30 +1,15 @@
-function recountChecked() {
-    let checks = document.getElementsByClassName('checkbox');
-    let checked = 0;
-    for (let check of checks) {
-        if (check.checked) {
-            checked = checked + 1;
-        };
-    };
-    document.getElementById('marked-checkboxes').innerHTML = checked;
-}
+// s.classList.add("badge-em-breve", "badge", "position-absolute", "bg-secondary");
+// s.innerHTML='EM BREVE';
+// TEMPORARIO PARA TER NOÇÃO DOS QUE FALTAM
 
-function uncheckAll() {
-    var checkboxes = document.getElementsByClassName('checkbox');
-    for(let el of checkboxes) {
-        el.checked = false;
+
+let elementos = document.getElementsByClassName('card-body-menu');
+
+for(let el of elementos) {
+    if(el.href.endsWith('#')){
+        const span = Object.assign(document.createElement("span"), {classList:"badge-em-breve badge position-absolute bg-secondary", innerText:"EM BREVE"});
+        el.classList.add('position-relative');
+        el.appendChild(span);
     }
-    this.recountChecked();
 }
-
-var numeroCheckboxes = document.getElementsByClassName('checklist-item').length
-document.getElementById('total-checkboxes').innerHTML = numeroCheckboxes;
-
-var checkboxes = document.getElementsByClassName('checkbox');
-
-for(let el of checkboxes) {
-    el.addEventListener("click", () => {
-        this.recountChecked();
-    });
-};
 

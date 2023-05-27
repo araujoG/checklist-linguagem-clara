@@ -1,0 +1,173 @@
+.titulo-elementPage {
+    color: #070a39;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: -3px;
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 700 !important;
+}
+
+.titulo-elementPage.emoji {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.titulo-elementPage.category {
+    opacity: .2;
+    color: #171a2e;
+    margin-top: 0;
+}
+
+.py-banner {
+    padding-top: 60px !important;
+    padding-bottom: 50px !important;
+}
+
+.pl-30px {
+    padding-left: 30px;
+}
+
+.p-row-container {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.heading {
+    color: #070a39;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 600; /* TODO: Aqui e em outros lugares q usa 600 era p ser 500*/
+    line-height: 26px;
+}
+
+.checkbox-counter {
+    color: #7265fc;
+    margin-bottom: 0px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.uncheck-button.btn{
+    width: max-content;
+    background-color: #7266fc;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-weight: 600; /* TODO: Aqui e em outros lugares q usa 600 era p ser 500*/
+    font-size: 14px;
+    border: none;
+}
+
+.uncheck-button.btn:hover {
+    color: white;
+    background: #5e50fb;
+}
+
+.h-26px {
+    height: 26px;
+}
+
+.text-info-paragraph {
+    color: rgba(7, 10, 57, .6);
+}
+
+.bg-section {
+    background-color: #f7f5fa;
+}
+
+.list-group.checklist, .card-examples {
+    background-color: #fff;
+    border: 1px #000;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(5, 34, 97, .1);
+}
+
+.card-examples {
+    padding: 30px 35px 20px;
+}
+
+.list-group-item.checklist-item {
+    padding: 35px 30px 25px 30px;
+}
+
+.list-group-item.opcional-item-title {
+    background-color: #fbfafc !important;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-weight: 600; /* TODO: Aqui e em outros lugares q usa 600 era p ser 500*/
+}
+
+.checklist-label .main-text{
+    color: #212027;
+    letter-spacing: -.2px;
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+
+.checklist-label .sub-text{
+    color: #808594;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.checklist-label .star-text{
+    color: #855312;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.checklist-label .star-text::before {
+    content: "⭐️ ";
+    width: 10px;
+}
+
+.col.checklist-label :last-child {
+    margin-bottom: 0px;
+}
+
+.form-check-input.checkbox {
+    width: 19px;
+    height: 19px;
+    border: 1px solid #7367FC;
+}
+
+.form-check-input.checkbox:focus {
+    border-color: #7367FC;
+    box-shadow: inherit;
+}
+
+.form-check-input.checkbox:hover {
+    border-color: #7367FC;
+    background-color: #f7f5fa;
+    cursor: pointer;
+}
+
+.form-check-input.checkbox:checked {
+    background-color: #7367FC;
+    border-color: #7367FC;
+}
+
+h5.heading {
+    font-size: 18px;
+    font-weight: 600; /* TODO: Aqui e em outros lugares q usa 600 era p ser 500*/
+    line-height: 22px;
+}
+
+.img-thumb {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.expanded-modal {
+    max-width: 100% !important;
+    height: auto
+}

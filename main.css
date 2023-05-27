@@ -32,3 +32,13 @@
 .w-600px {
     max-width: 600px;
 }
+
+.secao-titulo {
+    color: #5248b5;
+    font-weight: bold;
+}
+
+.secao {
+    padding: 10px 20px;
+    text-align: center;
+}

@@ -35,13 +35,6 @@
     margin-bottom: 10px;
 }
 
-/* Mock para navbar */
-.h-85px { 
-    height: 85px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-
 .card-body-menu, .card-body-menu[href='#']:hover {
     padding: 40px 35px 25px 35px !important;
     text-decoration: none;

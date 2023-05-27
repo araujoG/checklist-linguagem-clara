@@ -7,3 +7,16 @@
     height: 85px;
     background-color: rgba(0, 0, 0, 0);
 }
+
+.linkLogo {
+    height: 50px;
+    background-image: image-url('logo.svg')
+}
+
+.linkLogo:hover {
+    cursor: pointer;
+}
+
+.logoObject {
+    pointer-events: none;
+}

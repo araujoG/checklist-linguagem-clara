@@ -2,12 +2,6 @@
     font-family: Basier Circle, sans-serif !important;
 }
 
-/* Mock para navbar */
-.h-85px { 
-    height: 85px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
 .bg-light-blue {
     background-color: #f0f1fa;
 }

@@ -1,0 +1,9 @@
+.linhaNavbar {
+    column-gap: 20px;
+}
+
+/* Mock para navbar */
+.h-85px { 
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0);
+}

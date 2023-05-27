@@ -171,3 +171,12 @@ h5.heading {
     max-width: 100% !important;
     height: auto
 }
+
+.modal-content {
+    width: fit-content !important;
+    margin: auto;
+}
+
+.linhaNavbar {
+    column-gap: 20px;
+}

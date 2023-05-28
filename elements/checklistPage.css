@@ -188,4 +188,8 @@ h5.heading {
     .col-786px-100 {
         width: 100% !important;
     }
+
+    .col-786px-100.col-5 {
+        --bs-gutter-y: 1.5rem;
+    }
 }

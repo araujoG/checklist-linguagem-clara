@@ -89,3 +89,15 @@
     line-height: 1.75rem;
     text-align: justify;
 }
+
+.btn-link-checklist {
+    font-size: 1.75rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(31, 123, 143, .8);
+}
+
+.btn-link-checklist:hover {
+    color: rgba(31, 123, 143, 1);
+    cursor: pointer;
+}

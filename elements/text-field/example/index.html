@@ -32,6 +32,7 @@
                     <option>...</option>
                 </select>
             </div>
+
             <div class="col-8">
                 <label class="form-label fw-semibold text-secondary-emphasis">Selecione um
                     orgão do município</label>
@@ -40,22 +41,26 @@
                     <option>...</option>
                 </select>
             </div>
+
             <div class="col-4">
                 <label class="form-label fw-semibold text-secondary-emphasis">Número da licitação <span class="small fw-light">(opcional)</span></label>
                 <input type="text" class="form-control" placeholder="0000000000">
             </div>
 
-            <div class="col-5">
+            <div class="col-2">
                 <label class="form-label fw-semibold text-secondary-emphasis">Licitações a partir do dia <span class="small fw-light">(opcional)</span></label>
-                <div class="d-flex flex-row align-items-center">
-                    <input type="date" class="form-control" placeholder="">
-                    <span>e</span>
-                    <input type="date" class="form-control" placeholder="">
-                </div>
+                <input type="date" class="form-control" placeholder="">
+            </div>
+
+            <div class="col-2">
+                <label class="form-label fw-semibold text-secondary-emphasis">Licitações até o dia <span class="small fw-light">(opcional)</span></label>
+                <input id="data2input" type="date" class="form-control" placeholder="">
             </div>
         </form>
 
     </section>
 </main>
-
+<script>
+    document.getElementById('data2input').valueAsDate = new Date();
+</script>
 </html>

@@ -90,6 +90,16 @@
     text-align: justify;
 }
 
+.texto-passo-link {
+    color: rgba(82, 72, 181, .8);
+}
+
+.texto-passo-link:hover {
+    color: rgba(82, 72, 181, 1);
+    cursor: pointer;
+}
+
+
 .btn-link-checklist {
     font-size: 1.75rem;
     text-decoration: none;

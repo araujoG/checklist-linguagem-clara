@@ -166,6 +166,10 @@ h5.heading {
     object-position: left;
 }
 
+.img-thumb:hover {
+    cursor: pointer;
+}
+
 .img-thumb.scale-down {
     object-fit: scale-down;
 }

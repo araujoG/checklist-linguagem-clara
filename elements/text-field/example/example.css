@@ -9,9 +9,6 @@
     content: '>';
 }
 
-* {
-    font-family: Basier Circle, sans-serif !important;
-}
 
 .d-flex.flex-row > *{
     margin-right: 10px;

@@ -1,4 +1,8 @@
 
+* {
+    font-family: 'Roboto', sans-serif  !important;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 215px 215px 215px;

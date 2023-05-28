@@ -166,6 +166,14 @@ h5.heading {
     object-position: left;
 }
 
+.img-thumb.scale-down {
+    object-fit: scale-down;
+}
+
+.img-thumb.center-cover {
+    object-position: center;
+}
+
 .expanded-modal {
     max-width: 100% !important;
     height: auto

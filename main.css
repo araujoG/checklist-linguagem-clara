@@ -53,15 +53,39 @@
     margin-bottom: 0px !important;
 }
 
-.row-elementos {
+.rowElementos {
     background-color: rgb(233, 250, 249);
     min-height: 100px;
     margin: auto;
     margin-bottom: 2rem;
-    padding: 25px;
+    padding: 25px 40px !important;
 }
 
-.row-elementos-titulo {
+.rowElementos-titulo {
     font-size: 2rem;
     font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.rowElementos-link {
+    text-decoration: none;
+    color: rgba(7, 57, 10, .8);
+    font-weight: 500;
+}
+
+.rowElementos-link:hover {
+    color: rgba(7, 57, 10, 1);
+    cursor: pointer;
+}
+
+.numeracao {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #5248b5;
+}
+
+.texto-passo {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: justify;
 }

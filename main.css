@@ -32,9 +32,36 @@
 .secao-titulo {
     color: #5248b5;
     font-weight: bold;
+    margin-bottom: 1.25rem;
 }
 
 .secao {
     padding: 10px 20px;
     text-align: center;
+    margin-bottom: 3rem;
+}
+
+.secao-paragrafos {
+    color: rgba(7, 10, 57, .6);
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 2rem;
+}
+
+.blockquote-footer, figure {
+    margin-bottom: 0px !important;
+}
+
+.row-elementos {
+    background-color: rgb(233, 250, 249);
+    min-height: 100px;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 25px;
+}
+
+.row-elementos-titulo {
+    font-size: 2rem;
+    font-weight: 600;
 }

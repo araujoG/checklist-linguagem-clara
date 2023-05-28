@@ -4,7 +4,7 @@
 
 .py-banner {
     padding-bottom: 70px !important;
-    padding-top: 80px !important;
+    padding-top: 90px !important;
 }
 
 .titulo-homePage {
@@ -14,12 +14,6 @@
     font-size: 70px;
     line-height: 76px;
     font-weight: 700 !important;
-}
-
-.text-dark-green {
-    color: #1f7b8f;
-    margin: 0px;
-    margin-top: 10px;
 }
 
 .paragraph-main {
